@@ -2,15 +2,15 @@ class Dotcodegen < Formula
   desc "Generate tests for your code using LLMs"
   homepage "https://github.com/ferrucc-io/dotcodegen"
   url "https://github.com/ferrucc-io/dotcodegen/archive/main.tar.gz"
-  version "0.1.0"
-  sha256 "25a9329d711d0ff3781c3e89592b4e3ad83f5eea21ef74c626549959dfc6e651"
+  version "0.1.1"
+  sha256 "2b21c1740e37dd054cab3f0fa573797743739d8604116dfe636cb74a0e2e4f5f"
 
   depends_on "ruby@3.3"
 
   def install
     system "gem", "build", "dotcodegen.gemspec"
-    system "gem", "install", "dotcodegen-0.1.0.gem"
-    bin.install "bin/run" => "codegen"
+    system "gem", "install", "dotcodegen-0.1.1.gem"
+    bin.install "exe/run" => "codegen"
   end
 
   test do
