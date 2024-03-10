@@ -3,7 +3,7 @@ class Dotcodegen < Formula
   homepage "https://github.com/ferrucc-io/dotcodegen"
   url "https://github.com/ferrucc-io/dotcodegen/archive/main.tar.gz"
   version "0.1.1"
-  sha256 "25a9329d711d0ff3781c3e89592b4e3ad83f5eea21ef74c626549959dfc6e651"
+  sha256 "80175adae5faa9bb7bad39c2b9d3fe8470f4d06029db5fa0bcdc10fa0a2ef916"
 
   depends_on "ruby@3.3"
 
