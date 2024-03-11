@@ -2,8 +2,8 @@ class Dotcodegen < Formula
   desc "Generate tests for your code using LLMs"
   homepage "https://github.com/ferrucc-io/dotcodegen"
   url "https://github.com/ferrucc-io/dotcodegen/archive/main.tar.gz"
-  version "0.1.3"
-  sha256 "f4890a8e953f8d4e1e9152593d3a432a5e785fd25a11e712067f33d2c7665717"
+  version "0.1.4"
+  sha256 "caedf383d7f797d5a914ddb03df840b170f7fe2e884c1ed363a8671634d22988"
 
   depends_on "ruby@3.3"
 
